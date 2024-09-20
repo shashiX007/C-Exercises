@@ -1,9 +1,18 @@
 //code by shashikant//
 #include<stdio.h>
 int main(){
-    int arr[6] = {1,2,3,4,5,6};
-    int size = sizeof(arr)/sizeof(arr[0]);
-    int numberToRemove = 7;
+    int size;
+    printf("Enter the length of array : ");
+    scanf("%d",&size);
+    int arr[size];
+    int numberToRemove;
+
+    for (int i = 0; i < size;i++){
+        printf("Enter %d number : ",i+1);
+        scanf("%d",&arr[i]);
+    }
+    printf("Enter the number to remove : ");
+    scanf("%d",&numberToRemove);
     int index = -1;
     for (int i = 0; i < size; i++){
         if (arr[i] == numberToRemove){
