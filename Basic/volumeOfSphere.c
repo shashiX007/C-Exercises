@@ -8,6 +8,6 @@ int main(){
     printf("Enter the radius of sphere : ");
     scanf("%f",&radius);
     float volume = (4 * pi * radius * radius)/3;
-    printf("%f",volume);
+    printf("Volume of sphere is %f",volume);
     return 0;
 }
