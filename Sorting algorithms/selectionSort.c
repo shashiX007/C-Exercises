@@ -5,7 +5,7 @@ int main() {
 
     // Selection sort algorithm
     for (int i = 0; i < 10; i++) {//initializing the loop
-        int minIndex = i;//assuming athe indece of the min number 
+        int minIndex = i;//assuming the index of the min number 
         for (int j = i + 1; j < 10; j++) {//intialiasing another loop
             if (arr[j] < arr[minIndex]) {//cmparing the numbers
                 minIndex = j; // Update minIndex if a smaller element is found
